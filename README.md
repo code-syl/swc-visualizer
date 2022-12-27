@@ -6,3 +6,5 @@ To use HTTPS, either generate a key and cert in `C:/certificates/swc-visualizer`
 73 >>>          "sslKey": "C:/certificates/swc-visualizer/localhost-key.pem",
 74 >>>          "sslCert": "C:/certificates/swc-visualizer/localhost.pem"
 ```
+
+To disable HTTPS, set the `ssl` key to `false` inside the same `angular.json`.

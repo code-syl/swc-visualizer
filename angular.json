@@ -68,7 +68,10 @@
               "browserTarget": "swc-visualizer:build:production"
             },
             "development": {
-              "browserTarget": "swc-visualizer:build:development"
+              "browserTarget": "swc-visualizer:build:development",
+              "ssl": true,
+              "sslKey": "C:/certificates/swc-visualizer/localhost-key.pem",
+              "sslCert": "C:/certificates/swc-visualizer/localhost.pem"
             }
           },
           "defaultConfiguration": "development"
@@ -100,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "11785f2b-f31f-47f2-83fc-0c0baa126e3e"
   }
 }
